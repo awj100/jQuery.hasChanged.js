@@ -1,4 +1,5 @@
 /*
+* jQuery.hasChanged (https://github.com/awj100/jQuery.hasChanged.js)
 * This plugin will add a CSS class to the specified form fields to indicate when their value has been changed.
 * Works on <input type="checkbox|radio|text"/>, <select> and <textarea> elements.
 * 
