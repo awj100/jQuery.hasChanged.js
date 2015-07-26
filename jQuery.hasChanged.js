@@ -1,3 +1,10 @@
+/*
+* This plugin will add a CSS class to the specified form fields to indicate when their value has been changed.
+* Works on <input type="checkbox|radio|text"/>, <select> and <textarea> elements.
+* 
+* Developed by Andrew Jameson and made available under the MIT License (https://raw.githubusercontent.com/awj100/jQuery.hasChanged.js/master/LICENSE).
+*/
+
 (function($) {
 
     $.fn.hasChanged = function(o) {
