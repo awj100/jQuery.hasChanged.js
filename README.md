@@ -10,6 +10,7 @@ $(":input").hasChanged();
 
 #### Notes on usage
 * Although **jQuery.hasChanged** works only on `<input type="checkbox|radio|text">`, `<select>` and `<textarea>` elements, it also fully supports chaining on *all* elements returned by the specified selecter, whether or not **jQuery.hasChanged** is running on them.
+* **jQuery.hasChanged** does not yet support `<select>` elements implementing the `multiple` attribute.
 
 ## Options
 **jQuery.hasChanged** can be used as-is, though it does expose a couple of options:
