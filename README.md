@@ -1,5 +1,7 @@
 # jQuery.hasChanged.js
-Other jQuery plugins can be used to indicate when a form has been modified (*i.e.*, when a form is "dirty"), whereas **jQuery.hasChanged** will highlight by the addition of a CSS class *which* form fields have been modified.
+Other jQuery plugins can be used to indicate when a form has been modified (*i.e.*, when a form is "dirty"), whereas **jQuery.hasChanged** will highlight by the addition of a CSS class *which* form fields have been modified.  
+
+If a form field is reset to its original value then **jQuery.hasChanged** will *not* indicate that any changes have taken place.
 
 ## Usage
 Simply add a call to `hasChanged` on any jQuery selecter:
